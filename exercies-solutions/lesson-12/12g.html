@@ -1,0 +1,74 @@
+<html>
+
+<head>
+    <style>
+        .container {
+            width: 300px;
+        }
+
+        .image {
+            height: 50px;
+            width: 50px;
+            border-radius: 100px;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .flexbox {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            margin-bottom: 15px;
+        }
+
+        .follow-button {
+            background-color: rgb(49, 109, 245);
+            color: white;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            border-radius: 5px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="flexbox">
+            <div style="width: 50px; margin-right: 15px;"><img src="cat.jpg" alt="cat" class="image"></div>
+            <div style="flex: 1;" class="flexbox-vertical">
+                <div style="font-weight:bold;">Oliver</div>
+                <div style="color: gray;">the cat</div>
+                <div style="color: gray;">Popular</div>
+            </div>
+            <div class="follow-button">Follow</div>
+        </div>
+
+        <div class="flexbox">
+            <div style="width: 50px; margin-right: 15px;"><img src="cat2.jpg" alt="cat" class="image"></div>
+            <div style="flex: 1;" class="flexbox-vertical">
+                <div style="font-weight:bold;">Mimi</div>
+                <div style="color: gray;">Sleepy cat</div>
+                <div style="color: gray;">Popular</div>
+            </div>
+            <div class="follow-button">Follow</div>
+        </div>
+
+        <div class="flexbox">
+            <div style="width: 50px; margin-right: 15px;"><img src="dog.jpg" alt="cat" class="image"></div>
+            <div style="flex: 1;" class="flexbox-vertical">
+                <div style="font-weight:bold;">Rex</div>
+                <div style="color: gray;">the dog</div>
+                <div style="color: gray;">Popular</div>
+            </div>
+            <div class="follow-button">Follow</div>
+        </div>
+    </div>
+</body>
+
+</html>
